@@ -1,0 +1,52 @@
+.scanner-container {
+  max-width: 500px;
+  margin: 20px auto;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.scanner-viewport {
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+  position: relative;
+}
+
+/* A biblioteca injeta um vídeo e um canvas aqui, isso garante que eles preencham o espaço */
+.scanner-viewport video,
+.scanner-viewport canvas {
+  width: 100% !important;
+  height: auto !important;
+}
+
+.scanner-controls {
+  margin-top: 16px;
+  text-align: center;
+}
+
+.scanner-controls button {
+  padding: 12px 24px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  background-color: #007bff;
+  color: white;
+  transition: background-color 0.2s;
+}
+
+.scanner-controls button:hover {
+  background-color: #0056b3;
+}
+
+.scanner-controls .stop-button {
+  background-color: #dc3545;
+}
+
+.scanner-controls .stop-button:hover {
+  background-color: #c82333;
+}
