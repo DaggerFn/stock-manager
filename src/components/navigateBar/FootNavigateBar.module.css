@@ -1,0 +1,25 @@
+.footBar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #f0f0f0;
+  border-top: 1px solid #ccc;
+  padding: 10px 0;
+}
+
+.footBar a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  color: #333;
+  font-size: 36px;
+}
+
+.footBar a.active {
+  color: #007bff;
+}
