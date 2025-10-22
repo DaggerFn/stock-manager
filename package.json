@@ -9,6 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "html5-qrcode": "^2.3.8",
     "preact": "^10.27.2",
     "preact-router": "^4.1.2"
   },

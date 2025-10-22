@@ -1,0 +1,35 @@
+.simpleButton {
+  /* Aparência */
+  background-color: #007bff; /* Um azul primário, comum para ações */
+  color: white;
+  border: none;
+  border-radius: 8px; /* Cantos arredondados */
+  padding: 12px 24px; /* Espaçamento interno generoso */
+
+  /* Tipografia */
+  font-size: 1rem; /* 16px por padrão na maioria dos navegadores */
+  font-weight: 600; /* Semi-negrito */
+
+  /* Interação */
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out, transform 0.1s ease;
+  outline: none; /* Remove a borda de foco padrão do navegador */
+}
+
+/* Efeito ao passar o mouse por cima */
+.simpleButton:hover {
+  background-color: #0056b3; /* Um tom de azul mais escuro */
+}
+
+/* Efeito ao clicar no botão */
+.simpleButton:active {
+  background-color: #004494; /* Ainda mais escuro */
+  transform: scale(0.98); /* Efeito de "pressionar" */
+}
+
+/* Estilo para quando o botão estiver desabilitado */
+.simpleButton:disabled {
+  background-color: #cccccc; /* Cinza */
+  color: #666666;
+  cursor: not-allowed; /* Muda o cursor para indicar que não é clicável */
+}
